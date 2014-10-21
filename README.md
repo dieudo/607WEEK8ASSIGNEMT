@@ -119,6 +119,12 @@ INSERT INTO "POSTS"(
     VALUES (3,6,'BARBARA ORTUTAY','Facebook launched in February 2004 out of Zuckerbergs Harvard dorm room. It was first open only to Harvard students since it expanded into the world  more than 1.3 billion users.','2014-10-21');
 
 
+#(5)
+SELECT * 
+FROM POSTS 
+JOIN COMMENTS
+JOIN TAGS
+
 
 
 
